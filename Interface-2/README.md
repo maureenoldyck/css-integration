@@ -1,8 +1,8 @@
 # CSS INTEGRATION 
 
-## Interface 1
+## Interface 2
 
-During this exercise we had to recreate a grid view pixel-perfectly. The end-result has to be responsive and the grid should stack on small screens.
+During this exercise we had to recreate a view pixel-perfectly. 
 
 ## Motivation 
 
@@ -12,5 +12,5 @@ This exercise was meant for us to see how much we learned and how far we have ca
 
 The view we had to recreate:
 
-[![](images/03.zone-benefits-grid.png)](Interface-1/images/03.zone-benefits-grid.png)
+[![](images/13.ui-chart-2.png)](Interface-2/images/13.ui-chart-2.png)
 
