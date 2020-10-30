@@ -1,4 +1,3 @@
-
 body {
     background-color: #468df1;
     color: white;
@@ -9,27 +8,18 @@ body {
 
 h1 {
     font-weight: 300;
-    font-size: 55px;
+    font-size: 70px;
 }
 
 h2 {
     font-weight: 100;
 }
 
-table {
-    width: 100%;
+
+
+hr {
+    border-top: 1px solid white;
 }
-
-th {
-    text-align: left;
-}
-
-td {
-    height: 50px;
-    }
-
-td, th {
-        border-bottom: 1px solid white;
 
 /*** CLASSES ***/
 
@@ -39,30 +29,43 @@ td, th {
 }
 
 .top {
-    border: 1px solid black;
     flex: 1;
 }
 
 .graph {
-    border: 1px solid black;
 
     flex: 1;
 }
 
 .pages {
-    border: 1px solid black;
 
     flex: 1;
 
 }
 
 .bottom {
-    border: 1px solid black;
 
     flex: 1;
-
+    justify-content: end;
 }
 
 .fas {
     color: white;
+}
+
+.table-pages {
+    width: 100%;
+}
+
+.table-pages th {
+    text-align: left;
+}
+
+.table-pages td {
+    height: 50px;
+}
+
+.table-pages td,
+th {
+    border-bottom: 1px solid white;
 }
