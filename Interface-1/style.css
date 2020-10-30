@@ -6,13 +6,14 @@ h3 {
     color: #7dd87d;
     font-family: 'Fira Sans', sans-serif;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
 p {
     color: #838383;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -33,17 +34,22 @@ img {
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 50px;
-    margin: 5%;
+    margin: 7%;
 }
 
 .grid-item {
-    width: 250px;
+    width: 235px;
     line-height: 25px;
 }
 
 .resize {
  margin-left: 20%;
     width: 60%;
+}
+
+.emphasis { 
+    letter-spacing: 3px;
+    font-size: 15px;
 }
 
 /***** MEDIA QUERIES *****/
