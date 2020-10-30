@@ -1,0 +1,41 @@
+body {
+    background-color: #468df1;
+    color: white;
+}
+
+
+/*** CLASSES ***/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    border: 1px solid black;
+    flex: 1;
+}
+
+.graph {
+    border: 1px solid black;
+
+    flex: 1;
+}
+
+.pages {
+    border: 1px solid black;
+
+    flex: 1;
+
+}
+
+.bottom {
+    border: 1px solid black;
+
+    flex: 1;
+
+}
+
+.fas {
+    color: white;
+}
