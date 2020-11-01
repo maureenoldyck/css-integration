@@ -1,6 +1,5 @@
 body {
-    background-color: #468df1;
-    color: white;
+    color: #d9ecf2;
     font-family: 'Roboto', sans-serif;
     margin: 5%;
 
@@ -8,24 +7,26 @@ body {
 
 h1 {
     font-weight: 300;
-    font-size: 70px;
+    font-size: 45px;
 }
 
 h2 {
     font-weight: 100;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 h3 {
 font-weight: 300;
-font-size: 20px;
-letter-spacing: 3px;
+font-size: 16px;
 }
 
 
 /*** CLASSES ***/
 
 .wrapper {
+    background-color: #468df1;
+    width: 25%;
+    padding: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -36,13 +37,12 @@ letter-spacing: 3px;
 
 .graph {
     flex: 1;
-    width: 100%;
+    width: 105%;
 }
 
 .pages {
-
     flex: 1;
-
+    font-size: 14px;
 }
 
 .bottom {
@@ -53,12 +53,12 @@ display: flex;
 }
 
 .fas {
-    color: white;
+    color: #d9ecf2;
 }
 
 .table-pages {
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .table-pages th {
@@ -66,7 +66,7 @@ display: flex;
 }
 
 .table-pages td {
-    height: 50px;
+    height: 28px;
 }
 
 .table-pages td,
@@ -76,56 +76,15 @@ th {
 
 
 .graph-img {
-    min-width: 100%;
+    width: 100%;
 }
 
 
 .text-border {
     border-bottom: 1px solid #f5feff;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .no-border td {
     border-bottom: none;
-}
-
-/***** MEDIA QUERIES *****/
-
-
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-.graph-img {
-    width: 50%;
-}
-h1 {
-    font-size: 60px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-font-size: 18px;
-letter-spacing: 1px;
-}
-
-}
-
-
-@media screen and (max-width: 480px) {
-    .graph-img {
-        width: 25%;
-    }
-    h1 {
-        font-size: 50px;
-    }
-    
-    h2 {
-        font-size: 18px;
-    }
-    
-    h3 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    }
 }
