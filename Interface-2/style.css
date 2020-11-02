@@ -38,7 +38,7 @@ font-size: 16px;
 
 .graph {
     flex: 1;
-    width: 105%;
+    width: 100%;
 }
 
 .pages {
@@ -80,12 +80,6 @@ th {
     border-bottom: 1px solid #f5feff;
 }
 
-
-.graph-img {
-    width: 100%;
-}
-
-
 .text-border {
     border-bottom: 1px solid #f5feff;
     padding-bottom: 10px;
@@ -97,4 +91,46 @@ th {
 
 .right {
     text-align: right;
+}
+
+.one {
+    height: 30px;
+    width: 10px;
+    background-color: #f5feff;
+    display: block;
+}
+
+.two {
+    height: 80px;
+    width: 10px;
+    background-color: #f5feff;
+    display: block;
+}
+
+.three {
+    height: 70px;
+    width: 10px;
+    background-color: #f5feff;
+    display: block;
+}
+
+.four {
+    height: 90px;
+    width: 10px;
+    background-color: #f5feff;
+    display: block;
+}
+
+.five {
+    height: 50px;
+    width: 10px;
+    background-color: #f5feff;
+    display: block;
+}
+
+.graphic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
