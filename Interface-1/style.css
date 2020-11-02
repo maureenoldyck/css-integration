@@ -42,14 +42,13 @@ img {
     line-height: 25px;
 }
 
-.resize {
-    margin-left: 20%;
+.image{
     width: 60%;
+    margin: 0 auto;
 }
 
 .emphasis {
     font-family: monospace;
-    letter-spacing: 3px;
     font-size: 15px;
 }
 
