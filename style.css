@@ -48,37 +48,3 @@ img {
     padding: 25px;
 }
 
-.resize {
-    margin-left: 20%;
-    width: 60%;
-}
-
-.emphasis {
-    letter-spacing: 3px;
-    font-size: 15px;
-}
-
-/***** MEDIA QUERIES *****/
-
-@media screen and (min-width: 480px) and (max-width: 1024px) {
-    .grid-container {
-        display: inline-grid;
-        grid-template:
-            'auto auto'
-            'auto auto';
-        grid-row-gap: 50px;
-        margin: 20%;   
-}
-}
-@media screen and (max-width: 480px) {
-    .grid-container {
-        display: inline-grid;
-        grid-template:
-            'auto'
-            'auto'
-            'auto'
-            'auto';
-        grid-row-gap: 50px;
-        margin: 25% 50%;
-    }
-}
