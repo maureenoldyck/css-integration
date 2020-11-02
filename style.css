@@ -34,12 +34,11 @@ img {
 /***** CLASSES *****/
 
 .grid-container {
-    grid-gap: 50px;
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 50px;
-    margin: 5% 30%;
-}
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+ }
 
 .grid-item {
     width: 235px;
