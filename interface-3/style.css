@@ -1,7 +1,5 @@
-
-
-body{
-font-family: 'Merriweather Sans', sans-serif;
+body {
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .card {
@@ -10,6 +8,7 @@ font-family: 'Merriweather Sans', sans-serif;
     border: 1px solid #eeeeee;
     display: flex;
     flex-wrap: wrap;
+    border-radius: %;
 }
 
 .image-container {
@@ -33,14 +32,15 @@ h1 {
 }
 
 h2 {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
+    word-spacing: 2px;
     color: grey;
 }
 
 p {
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 15px;
 }
 
 .author {
@@ -57,12 +57,12 @@ p {
     object-fit: fill;
     border-radius: 100%;
     margin-right: 15px;
-    flex:1
+    flex: 1
 }
- 
+
 .name {
     flex: 3;
-    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .icons {
@@ -73,6 +73,15 @@ p {
 
 .article {
     color: grey;
-    margin: 20px 0;
     font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+.fas {
+    margin-left: 5px;
+}
+
+.point {
+    margin: 0 2px;
 }
